@@ -12,7 +12,7 @@
  *)
 
 open Lab2 ;; (* for access to your lab2 solution *)
-open CS51 ;; (* for access to the unit_test function *)
+open Absbook ;; (* for access to the unit_test function *)
 
 (* Method 1: Boolean
 
@@ -35,8 +35,8 @@ test_square_all_bool () ;;
 (* Method 2: unit_test
 
    By making use of side effects, we can print an indicative message
-   relating to each test. We will use the CS51 unit-test function
-   provided in the CS51 module.  *)
+   relating to each test. We will use the unit-test function
+   provided in the Absbook module.  *)
 
 let test_square_all () =
   unit_test (square_all [] = []) "square_all empty";
