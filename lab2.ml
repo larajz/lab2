@@ -16,8 +16,8 @@ Part 1: Types and type inference beyond atomic types
 
 Exercise 1: What are appropriate types to replace the ??? in the
 expressions below? Test your solution by uncommenting the examples
-(removing the `(*` and `*)` at start and end) and verifying that no
-typing error is generated.
+(removing the `(*` and `*)` lines at start and end) and verifying that
+no typing error is generated.
 ......................................................................*)
 
 (*   <--- remove this start of comment line
@@ -147,8 +147,8 @@ let sum (lst : int list) : int =
 
 (*......................................................................
 Exercise 6: Define a recursive function `max_list` that returns the
-maximum element in a non-empty integer list. Don't worry what happens
-on an empty list. You may be warned by the compiler that "this
+maximum element in a non-empty integer list. Don't worry about what
+happens on an empty list. You may be warned by the compiler that "this
 pattern-matching is not exhaustive." You may ignore this warning for
 this lab.
 ......................................................................*)
@@ -179,8 +179,8 @@ let zip (x : int list) (y : int list) : (int * int) list =
   failwith "zip not implemented" ;;
 
 (*......................................................................
-Exercise 8: Recall from Chapter 7 the definition of the function `prods`
-(duplicated below).
+Exercise 8: Recall from Chapter 7 the definition of the function
+`prods` (duplicated below).
 
 Using `sum`, `prods`, and `zip`, define a function `dotprod` that
 takes the dot product of two integer lists (that is, the sum of the

@@ -2,12 +2,12 @@
 ## lab2
 
 
-Before you start working, add the extra remote repository for lab2. To do so, run:
 
-`git remote add distribution https://github.com/cs51/lab2.git`
 
-To check for updates, run:
+Accept the Github Classroom assignnment at 
+[url.cs51.io/lab2](http://url.cs51.io/lab2). 
 
-`git pull distribution master`
+If this does not work _and a TF advises_, fork and then clone the repository at 
+[http://github.com/cs51/lab2](http://github.com/cs51/lab2) 
+and proceed as usual.
 
-You should run this periodically to check for updates.

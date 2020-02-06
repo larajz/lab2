@@ -39,11 +39,16 @@ test_square_all_bool () ;;
    provided in the Absbook module.  *)
 
 let test_square_all () =
-  unit_test (square_all [] = []) "square_all empty";
-  unit_test (square_all [1] = [1]) "square_all one";
-  unit_test (square_all [-1] = [1]) "square_all neg_one";
-  unit_test (square_all [3; 4; 5] = [9; 16; 25]) "square_all many_pos";
-  unit_test (square_all [4; -10; 12] = [16; 100; 144]) "square_all many_int";;
+  unit_test (square_all [] = [])
+            "square_all empty";
+  unit_test (square_all [1] = [1])
+            "square_all one";
+  unit_test (square_all [-1] = [1])
+            "square_all neg_one";
+  unit_test (square_all [3; 4; 5] = [9; 16; 25])
+            "square_all many_pos";
+  unit_test (square_all [4; -10; 12] = [16; 100; 144])
+            "square_all many_int";;
 
 (* Now run the tests *)
 let _ = test_square_all () ;;
@@ -51,7 +56,7 @@ let _ = test_square_all () ;;
 (* To actually execute the test, you need to run this program. First 
    you'll need to compile the file with 
 
-     % ocamlbuild lab2_tests.byte
+     % ocamlbuild -use-ocamlfind lab2_tests.byte
 
    Once you have a compiled file, you need to run the compiled code:
 
